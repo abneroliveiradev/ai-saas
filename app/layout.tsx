@@ -9,9 +9,9 @@ import { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Next.js Clerk Template",
+  title: "AI SaaS Platform",
   description:
-    "A simple and powerful Next.js template featuring authentication and user management powered by Clerk.",
+    "A SaaS platform for chat with the smartiest AI.",
   openGraph: { images: ["/og.png"] },
 };
 
