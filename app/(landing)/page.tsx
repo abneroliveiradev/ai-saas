@@ -1,7 +1,15 @@
-export default function LandingPage() { 
-  return (
-    <div className="px-8 py-12 sm:py-16 md:px-20">
-      Landing Page (unprotected)
+import { LandingNavbar } from "@/components/landing-navbar";
+import { LandingHero } from "@/components/landing-hero";
+import { LandingContent } from "@/components/landing-content";
+
+const LandingPage = () => {
+  return ( 
+    <div className="h-full ">
+      <LandingNavbar />
+      <LandingHero />
+      <LandingContent />
     </div>
-  );
+   );
 }
+ 
+export default LandingPage;
