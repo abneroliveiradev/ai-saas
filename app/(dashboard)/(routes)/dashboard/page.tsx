@@ -22,8 +22,8 @@ const tools = [
   {
     label: "Image Generation",
     href: "/image",
-    color: "text-pink-500",
-    bgColor: "bg-pink-500/10",
+    color: "text-pink-700",
+    bgColor: "bg-pink-700/10",
     icon: ImageIcon,
   },
   {
